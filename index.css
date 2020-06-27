@@ -146,7 +146,7 @@ strong{
   font-family: "Raleway bold";
 }
 
-@media all and (min-width: 376px) {
+@media all and (min-width: 426px) {
   body {
     background-image: url(./images/bg-desktop.png);
   }
