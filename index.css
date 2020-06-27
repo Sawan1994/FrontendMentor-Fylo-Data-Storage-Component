@@ -18,7 +18,7 @@ body {
   background-image: url(./images/bg-mobile.png);
   background-repeat: no-repeat;
   background-position: bottom;
-  background-size: 100%;
+  background-size: 100vw 100vh;
   font-family: Raleway;
   background-color: hsl(229, 57%, 11%);
   overflow-x: hidden;
@@ -150,6 +150,7 @@ strong{
 @media all and (min-width: 426px) {
   body {
     background-image: url(./images/bg-desktop.png);
+    background-size: unset;
   }
 
   .container {
